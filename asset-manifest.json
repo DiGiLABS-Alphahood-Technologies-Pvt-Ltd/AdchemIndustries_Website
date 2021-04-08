@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/AdchemIndustries_Website/static/css/main.63970ba5.chunk.css",
+    "main.js": "/AdchemIndustries_Website/static/js/main.20d3eb0e.chunk.js",
+    "main.js.map": "/AdchemIndustries_Website/static/js/main.20d3eb0e.chunk.js.map",
+    "runtime-main.js": "/AdchemIndustries_Website/static/js/runtime-main.d540e178.js",
+    "runtime-main.js.map": "/AdchemIndustries_Website/static/js/runtime-main.d540e178.js.map",
+    "static/js/2.55171bf0.chunk.js": "/AdchemIndustries_Website/static/js/2.55171bf0.chunk.js",
+    "static/js/2.55171bf0.chunk.js.map": "/AdchemIndustries_Website/static/js/2.55171bf0.chunk.js.map",
+    "index.html": "/AdchemIndustries_Website/index.html",
+    "static/css/main.63970ba5.chunk.css.map": "/AdchemIndustries_Website/static/css/main.63970ba5.chunk.css.map",
+    "static/js/2.55171bf0.chunk.js.LICENSE.txt": "/AdchemIndustries_Website/static/js/2.55171bf0.chunk.js.LICENSE.txt",
+    "static/media/adchem-industries-logo.9f415a40.png": "/AdchemIndustries_Website/static/media/adchem-industries-logo.9f415a40.png",
+    "static/media/adhesive1.7fc0822d.png": "/AdchemIndustries_Website/static/media/adhesive1.7fc0822d.png",
+    "static/media/carousel1.72c440ad.png": "/AdchemIndustries_Website/static/media/carousel1.72c440ad.png",
+    "static/media/carousel2.08e3b973.png": "/AdchemIndustries_Website/static/media/carousel2.08e3b973.png",
+    "static/media/carousel3.9589b227.png": "/AdchemIndustries_Website/static/media/carousel3.9589b227.png",
+    "static/media/carousel4.19beef09.png": "/AdchemIndustries_Website/static/media/carousel4.19beef09.png",
+    "static/media/footer-img.fdd8182c.png": "/AdchemIndustries_Website/static/media/footer-img.fdd8182c.png",
+    "static/media/global-network.65e6409a.svg": "/AdchemIndustries_Website/static/media/global-network.65e6409a.svg",
+    "static/media/group.4252835e.svg": "/AdchemIndustries_Website/static/media/group.4252835e.svg",
+    "static/media/metal-chemical1.d3b54dec.png": "/AdchemIndustries_Website/static/media/metal-chemical1.d3b54dec.png",
+    "static/media/molecular.5f51d60b.svg": "/AdchemIndustries_Website/static/media/molecular.5f51d60b.svg",
+    "static/media/searchIcon.c09666d2.svg": "/AdchemIndustries_Website/static/media/searchIcon.c09666d2.svg",
+    "static/media/wood-adhesive1.790b1302.png": "/AdchemIndustries_Website/static/media/wood-adhesive1.790b1302.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d540e178.js",
+    "static/js/2.55171bf0.chunk.js",
+    "static/css/main.63970ba5.chunk.css",
+    "static/js/main.20d3eb0e.chunk.js"
+  ]
+}
