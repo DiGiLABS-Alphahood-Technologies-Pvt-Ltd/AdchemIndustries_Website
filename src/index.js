@@ -60,8 +60,6 @@ import PricingTable from "./blocks/PricingTable";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
-import Header from './adchem/header/Header';
-import HeaderFive from './component/header/HeaderFive';
 import Adchem from './adchem/Adchem';
 
 

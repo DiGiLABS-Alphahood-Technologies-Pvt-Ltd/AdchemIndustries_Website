@@ -51,18 +51,18 @@ class HeaderFive extends Component {
                                 <div className="header-right justify-content-end">
                                     <nav className="mainmenunav d-lg-block">
                                         <ul className="mainmenu">
-                                            <li><Link to="#">Home</Link>
+                                            <li><Link to="/adchem/home">Home</Link>
                                             </li>
-                                            <li><Link to="/about-us" >About Us</Link>
+                                            <li><Link to="/adchem/about-us" >About Us</Link>
                                             </li>
-                                            <li><Link to="/products" >Products</Link></li>
+                                            <li><Link to="/adchem/products" >Products</Link></li>
 
-                                            <li><Link to="/clients" >Clients</Link>
+                                            <li><Link to="/adchem/clients" >Clients</Link>
                                             </li>
                                         </ul>
                                     </nav>
                                     <div className="header-btn">
-                                        <Link className="rn-btn">
+                                        <Link className="rn-btn" to="/adchem/contact-us">
                                             <span>Contact Us</span>
                                         </Link>
                                     </div>
