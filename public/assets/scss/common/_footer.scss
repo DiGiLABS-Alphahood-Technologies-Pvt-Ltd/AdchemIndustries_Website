@@ -73,7 +73,7 @@ Footer Styles
             font-weight: 900;
             font-family: 'Montserrat', sans-serif;
             line-height: 90px;
-            
+
             @media #{$lg-layout} {
                 font-size: 50px;
                 line-height: 61px;
@@ -165,7 +165,6 @@ Footer Styles
     }
 }
 
-
 /* Footer Style Two  */
 .footer-style-2 {
     p {
@@ -174,10 +173,6 @@ Footer Styles
         opacity: 0.75;
     }
 }
-
-
-
-
 
 .copyright-text {
     position: absolute;
@@ -199,4 +194,34 @@ Footer Styles
         font-size: 14px;
         opacity: 0.75;
     }
+}
+
+.footer {
+  padding: 6rem 11.2rem;
+  background: #121330;
+  width: 100%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.footer-grid h3 {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 6rem 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    padding-top: 5rem 2rem;
+  }
 }
