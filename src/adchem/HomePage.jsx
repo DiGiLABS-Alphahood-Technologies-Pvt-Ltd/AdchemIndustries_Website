@@ -1,46 +1,13 @@
-import React, { Component, Fragment, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import ModalVideo from "react-modal-video";
-import ScrollToTop from "react-scroll-up";
-import Slider from "react-slick";
-import { slideSlick } from "../page-demo/script";
-import BlogContent from "../elements/blog/BlogContent";
-import Header from "../component/header/HeaderFive";
-import FooterTwo from "../component/footer/FooterTwo";
-import CallAction from "../elements/callaction/CallAction";
-import Team from "../blocks/team/TeamTwo";
-import Accordion01 from "../elements/Accordion";
-import Helmet from "../component/common/Helmet";
-import {
-  FiCast,
-  FiLayers,
-  FiUsers,
-  FiChevronUp,
-  FiCheck,
-} from "react-icons/fi";
-import CounterOne from "../elements/counters/CounterOne";
-import BrandOne from "../elements/Brand";
 import HomeIconList from "./HomeIconList";
-import ContactOne from "./ContactOne";
+import ContactUs from "./ContactUs";
 import Clients from "./Clients";
 import Para from "./Para";
 import Products from "./Products";
 import HomeCarousel from "./HomeCarousel";
 
 const HomePage = (props) => {
-  const [input, setInput] = useState({});
-
-  const inputChangeHandler = (e) => {
-    let name = e.target.name;
-    let value = e.target.value;
-    setInput({ ...input, [name]: value });
-  };
-
-  const formSubmitHandler = (e) => {
-    e.preventDefault();
-    console.log(input);
-  };
-
   return (
     <>
       <HomeCarousel />
@@ -78,7 +45,7 @@ const HomePage = (props) => {
 
       <Clients />
 
-      <ContactOne />
+      <ContactUs />
     </>
   );
 };

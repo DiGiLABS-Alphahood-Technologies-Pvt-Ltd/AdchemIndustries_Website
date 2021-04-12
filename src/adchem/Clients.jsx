@@ -37,10 +37,18 @@ const clientsList = [
   },
 ];
 
-class Clients extends Component {
-  render() {
-    return (
-      <React.Fragment>
+const Clients = () => {
+  return (
+    <React.Fragment>
+      <div className="clients section-title text-center service-style--3 mb--150 mb_sm--0 mt--100">
+        <h2 className="title">Clients</h2>
+        <p className="description">
+          We are catering to the requirements of various Distilleries,
+          Pharmaceutical companies, Breweries, Cosmetic and Ayurveda companies
+          like ABD India Ltd., Radico Khaitan Ltd., Emami Ltd., Dabur India
+          Ltd., Bhutan Fruit Products, Deyâs Medicals Ltd. and many more
+          prestigious organizations.
+        </p>
         <div className="portfolio-wrapper">
           <div className="portfolio-slick-activation mt--70 mt_sm--40">
             <Slider {...portfolioSlick2}>
@@ -63,8 +71,8 @@ class Clients extends Component {
             </Slider>
           </div>
         </div>
-      </React.Fragment>
-    );
-  }
-}
+      </div>
+    </React.Fragment>
+  );
+};
 export default Clients;
