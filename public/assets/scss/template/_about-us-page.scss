@@ -1,0 +1,21 @@
+.bg {
+  width: 100%;
+  position: relative;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.positioned {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10rem;
+}
+
+.green-text {
+  color: #20ce88;
+  font-weight: 700;
+  font-size: 3.9rem;
+}
