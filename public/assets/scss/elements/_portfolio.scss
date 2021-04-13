@@ -4,7 +4,7 @@
 .portfolio {
   position: relative;
   @extend %transition;
-  min-height: 600px;
+  min-height: 350px;
   width: 100%;
   padding-top: 35%;
 
@@ -64,6 +64,15 @@
     backface-visibility: hidden;
     transition: transform 0.28s ease;
     z-index: 4;
+    &.labelling-adh {
+      background-image: url(/assets/images/products/labelling-adh.svg);
+    }
+    &.wood-adh {
+      background-image: url(/assets/images/products/wood-adh.svg);
+    }
+    &.metal-chem {
+      background-image: url(/assets/images/products/metal-chem.svg);
+    }
     &.image-1 {
       background-image: url(/assets/images/portfolio/portfolio-1.jpg);
     }
@@ -390,7 +399,7 @@
       left: 0;
       height: 100%;
       width: 100%;
-      background-size: cover;
+      background-size: cover; 
       background-position: center;
       background-color: #0a0a0a;
       background-image: url(/assets/images/portfolio/portfolio-static-01.jpg);

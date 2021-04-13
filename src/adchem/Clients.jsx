@@ -20,10 +20,6 @@ const clientsList = [
     title: " Original Choice Whiskey",
   },
   {
-    image: "client-5",
-    title: "Navratna Oil",
-  },
-  {
     image: "client-6",
     title: "Dabur",
   },

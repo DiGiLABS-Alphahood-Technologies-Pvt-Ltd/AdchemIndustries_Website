@@ -1,7 +1,7 @@
 import React from "react";
 import Para from "./Para";
 import BeliefComponent from "./BeliefComponent";
-import CountryList from "./CountryList";
+import FlexList from "./FlexList";
 
 // import networkIcon from "/assets/images/belief-icons/network.svg";
 // // import badgeIcon from "/assets/images/belief-icons/badge.svg";
@@ -11,21 +11,11 @@ import CountryList from "./CountryList";
 
 const beliefsList = [
   {
-    title: "People",
+    title: "People & Quality",
     img: (
       <img
         className="belief-img"
         src="/assets/images/belief-icons/network.svg"
-        alt=""
-      />
-    ),
-  },
-  {
-    title: "Quality",
-    img: (
-      <img
-        className="belief-img"
-        src="/assets/images/belief-icons/badge.svg"
         alt=""
       />
     ),
@@ -71,6 +61,17 @@ const beliefs = (
     </div>
   </div>
 );
+
+const countryList = [
+  "India",
+  "Bangladesh",
+  "Nepal",
+  "Bhutan",
+  "China",
+  "Sri Lanka",
+  "Western Asia",
+  "Africa",
+];
 
 const AboutUsPage = (props) => {
   const bgImage = (
@@ -176,7 +177,7 @@ const AboutUsPage = (props) => {
           alt="map"
         />
         <div className="container mt--50">
-          <CountryList />
+          <FlexList list={countryList} />
         </div>
       </div>
     </div>
