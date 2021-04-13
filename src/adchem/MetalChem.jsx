@@ -49,14 +49,14 @@ const list = ["Oil", "Grease", "Dirt", "Rust"];
 
 const productList = [
   {
-    image: "image-2",
+    image: "labelling-adh",
     title: "Labelling Adhesives",
     url: "/products/labelling-adh",
   },
   {
-    image: "image-3",
+    image: "wood-adh",
     title: "Wood Adhesives",
-    url: "/products/wood-adhesives",
+    url: "/products/wood-adh",
   },
 ];
 

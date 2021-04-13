@@ -57,14 +57,14 @@ const list = ["Glass", "Pet", "HDPE", "LDPE", "PP", "Tin"];
 
 const productList = [
   {
-    image: "image-2",
+    image: "metal-chem",
     title: "Metal Pre-Treatment Chemicals",
-    url: "/products/metal-chemicals",
+    url: "/products/metal-chem",
   },
   {
-    image: "image-3",
+    image: "wood-adh",
     title: "Wood Adhesives",
-    url: "/products/wood-adhesives",
+    url: "/products/wood-adh",
   },
 ];
 
