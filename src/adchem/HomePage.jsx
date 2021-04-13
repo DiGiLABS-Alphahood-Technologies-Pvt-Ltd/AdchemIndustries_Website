@@ -36,7 +36,7 @@ const HomePage = (props) => {
       />
       <HomeIconList column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
       <div style={{ textAlign: "center", marginBottom: "5rem" }}>
-        <Link className="rn-btn" to="/adchem/about-us">
+        <Link className="rn-btn" to="/about-us">
           <span>Learn More</span>
         </Link>
       </div>

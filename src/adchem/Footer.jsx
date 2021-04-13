@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="mb--20">
-        <Link to="/adchem/home">{logoUrl}</Link>
+        <Link to="/">{logoUrl}</Link>
       </div>
       <div className="footer-grid">
         <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { slideSlick } from "./script";
 
@@ -51,12 +52,12 @@ const HomeCarousel = (props) => {
                         )}
                         {value.buttonText ? (
                           <div className="slide-btn">
-                            <a
+                            <Link
+                              to={value.buttonLink}
                               className="rn-button-style--2 btn-solid"
-                              href={`${value.buttonLink}`}
                             >
                               {value.buttonText}
-                            </a>
+                            </Link>
                           </div>
                         ) : (
                           ""

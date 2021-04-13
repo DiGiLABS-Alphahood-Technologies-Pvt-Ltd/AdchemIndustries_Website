@@ -49,7 +49,7 @@ class HeaderFive extends Component {
               <div className="col-lg-3 col-md-4 col-6">
                 <div className="header-left">
                   <div className="logo">
-                    <Link to="/">{logoUrl}</Link>
+                    <a href="/">{logoUrl}</a>
                   </div>
                 </div>
               </div>
@@ -58,20 +58,20 @@ class HeaderFive extends Component {
                   <nav className="mainmenunav d-lg-block">
                     <ul className="mainmenu">
                       <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/adchem/home">Home</Link>
                       </li>
                       <li>
-                        <Link to="/about-us">About Us</Link>
+                        <Link to="/adchem/about-us">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/products">Products</Link>
+                        <Link to="/adchem/products">Products</Link>
                       </li>
 
                       <li>
-                        <Link to="/clients">Clients</Link>
+                        <Link to="/adchem/clients">Clients</Link>
                       </li>
                       <div className="header-btn" style={{ marginTop: "11px" }}>
-                        <Link className="rn-btn" to="/contact-us">
+                        <Link className="rn-btn" to="/adchem/contact-us">
                           <span>Contact Us</span>
                         </Link>
                       </div>
