@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiCheck } from "react-icons/fi";
 import FlexList from "./FlexList";
 import Products from "./Products";
 

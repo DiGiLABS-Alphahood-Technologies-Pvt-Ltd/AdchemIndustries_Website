@@ -81,7 +81,7 @@ const AboutUsPage = (props) => {
   return (
     <div className="about-us-page">
       <div className="bg">
-        {bgImage}
+        {/* {bgImage} */}
         <h1 className="positioned heading" style={{ color: "white" }}>
           Building future
           <br />
