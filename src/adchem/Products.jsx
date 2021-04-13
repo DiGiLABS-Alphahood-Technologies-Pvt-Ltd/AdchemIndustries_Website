@@ -12,12 +12,12 @@ const Products = (props) => {
         url: "/products/labelling-adh",
       },
       {
-        image: "image-2",
+        image: "metal-chem",
         title: "Metal Pre-Treatment Chemicals",
         url: "/products/metal-chem",
       },
       {
-        image: "image-3",
+        image: "wood-adh",
         title: "Wood Adhesives",
         url: "/products/wood-adh",
       },
