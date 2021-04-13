@@ -171,11 +171,11 @@ const AboutUsPage = (props) => {
       </div>
       <div className="mb--50">
         <Para title="Network" align="right" />
-        <img
+        <div className="map"
           style={{ width: "100%" }}
-          src="/assets/images/about/map.png"
+          
           alt="map"
-        />
+        ></div>
         <div className="container mt--50">
           <FlexList list={countryList} />
         </div>
