@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { slideSlick } from "../page-demo/script";
+import { slideSlick } from "./script";
 
 const SlideList = [
   {
