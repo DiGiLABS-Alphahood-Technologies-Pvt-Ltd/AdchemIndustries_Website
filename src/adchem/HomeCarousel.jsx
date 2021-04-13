@@ -29,7 +29,7 @@ const HomeCarousel = (props) => {
     <>
       <div className="slider-wrapper">
         <div className="slider-activation">
-          <Slider className="rn-slick-dot dot-light" {...slideSlick}>
+          <Slider className="rn-slick-dot" {...slideSlick}>
             {SlideList.map((value, index) => (
               <div
                 className={`slide slide-style-2 slider-box-content without-overlay d-flex align-items-center justify-content-center bg_image ${value.bgImage}`}
