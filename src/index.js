@@ -70,38 +70,41 @@ import LabellingAdh from "./adchem/LabellingAdh";
 import WoodAdh from "./adchem/WoodAdh";
 import MetalChem from "./adchem/MetalChem";
 import ContactUs from "./adchem/ContactUs";
+import ScrollUp from "./adchem/ScrollUp";
 
 class Root extends Component {
   render() {
     return (
       <BrowserRouter basename={"/"}>
-        <HeaderFive
-          headerPosition="header--static logoresize"
-          logo="all-dark"
-          color="color-black"
-        />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/about-us" component={AboutUsPage} />
-          <Route exact path="/clients" component={Clients} />
-          <Route exact path="/products" component={Products} />
-          <Route
-            exact
-            path="/products/labelling-adh"
-            component={LabellingAdh}
+        <ScrollUp>
+          <HeaderFive
+            headerPosition="header--static logoresize"
+            logo="all-dark"
+            color="color-black"
           />
-          <Route exact path="/products/wood-adh" component={WoodAdh} />
-          <Route exact path="/products/metal-chem" component={MetalChem} />
-          <Route exact path="/contact-us" component={ContactUs} />
-          {/* <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} /> */}
-          <Route component={error404} />
-        </Switch>
-        <div className="backto-top">
-          <ScrollToTop showUnder={160}>
-            <FiChevronUp />
-          </ScrollToTop>
-        </div>
-        <Footer />
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/about-us" component={AboutUsPage} />
+            <Route exact path="/clients" component={Clients} />
+            <Route exact path="/products" component={Products} />
+            <Route
+              exact
+              path="/products/labelling-adh"
+              component={LabellingAdh}
+            />
+            <Route exact path="/products/wood-adh" component={WoodAdh} />
+            <Route exact path="/products/metal-chem" component={MetalChem} />
+            <Route exact path="/contact-us" component={ContactUs} />
+            {/* <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} /> */}
+            <Route component={error404} />
+          </Switch>
+          <div className="backto-top">
+            <ScrollToTop showUnder={160}>
+              <FiChevronUp />
+            </ScrollToTop>
+          </div>
+          <Footer />
+        </ScrollUp>
       </BrowserRouter>
     );
   }
