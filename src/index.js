@@ -93,14 +93,14 @@ class Root extends Component {
           <Route exact path="/products/wood-adh" component={WoodAdh} />
           <Route exact path="/products/metal-chem" component={MetalChem} />
           <Route exact path="/contact-us" component={ContactUs} />
-          <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} />
-          <Route component={error404} />
+          {/* <Route path={`${process.env.PUBLIC_URL}/404`} component={error404} /> */}
         </Switch>
         <div className="backto-top">
           <ScrollToTop showUnder={160}>
             <FiChevronUp />
           </ScrollToTop>
         </div>
+        <Route component={error404} />
         <Footer />
       </BrowserRouter>
     );
