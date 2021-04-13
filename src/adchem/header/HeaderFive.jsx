@@ -70,11 +70,9 @@ class HeaderFive extends Component {
                       <li>
                         <Link to="/clients">Clients</Link>
                       </li>
-                      <div className="header-btn" style={{ marginTop: "11px" }}>
-                        <Link className="rn-btn" to="/contact-us">
-                          <span>Contact Us</span>
-                        </Link>
-                      </div>
+                      <li>
+                        <Link to="/contact-us">Contact Us</Link>
+                      </li>
                     </ul>
                   </nav>
 
