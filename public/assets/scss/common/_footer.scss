@@ -225,3 +225,20 @@ Footer Styles
     padding-top: 5rem 2rem;
   }
 }
+
+.heart {
+    display: inline-block;
+    transition: all .1s ease;
+}
+
+.digilabs{
+    a:hover {
+        color: $theme-color;  
+    }
+    &:hover{
+        .heart {
+            transform: scale(1.5);
+            color: red;
+        }
+    } 
+}
