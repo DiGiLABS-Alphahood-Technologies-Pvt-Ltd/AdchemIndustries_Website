@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Para from "./Para";
 import BeliefComponent from "./BeliefComponent";
 import FlexList from "./FlexList";
@@ -86,7 +87,9 @@ const AboutUsPage = (props) => {
           Building future
           <br />
           <div className="green-text">since 1983</div>
-          <button className="rn-button-style--2 btn-solid">Contact Us</button>
+          <Link to="/contact-us">
+            <button className="rn-button-style--2 btn-solid">Contact Us</button>
+          </Link>
         </h1>
       </div>
       <div className="mb--100">
@@ -171,11 +174,7 @@ const AboutUsPage = (props) => {
       </div>
       <div className="mb--50">
         <Para title="Network" align="right" />
-        <div className="map"
-          style={{ width: "100%" }}
-          
-          alt="map"
-        ></div>
+        <div className="map" style={{ width: "100%" }} alt="map"></div>
         <div className="container mt--50">
           <FlexList list={countryList} />
         </div>

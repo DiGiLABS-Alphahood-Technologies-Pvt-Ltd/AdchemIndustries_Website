@@ -24,9 +24,9 @@ const productList = [
     url: "/products/labelling-adh",
   },
   {
-    image: "wood-adh",
-    title: "Wood Adhesives",
-    url: "/products/wood-adh",
+    image: "metal-chem",
+    title: "Metal Pre-Treatment Chemicals",
+    url: "/products/metal-chem",
   },
 ];
 

@@ -11,7 +11,7 @@ const iconList = [
   {
     icon: <FiUsers />,
     title: "15+",
-    description: "More than 1000+ clients worldwide",
+    description: "More than 15+ clients worldwide",
   },
   {
     icon: <IoMdGitNetwork />,
