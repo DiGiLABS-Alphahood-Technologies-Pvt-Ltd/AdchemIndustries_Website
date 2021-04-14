@@ -30,61 +30,12 @@ const ContactOne = () => {
                 many more prestigious organizations.{" "}
               </p>
             </div>
-            <div className="form-wrapper">
-              <form
-                onSubmit={(e) => {
-                  formSubmitHandler(e);
-                }}
-              >
-                <input
-                  type="text"
-                  placeholder="Name"
-                  name="name"
-                  value={input.name}
-                  required
-                  onChange={(e) => {
-                    inputChangeHandler(e);
-                  }}
-                />
-                <input
-                  type="text"
-                  placeholder="E-Mail"
-                  name="email"
-                  value={input.name}
-                  required
-                  onChange={(e) => {
-                    inputChangeHandler(e);
-                  }}
-                />
-                <input
-                  type="text"
-                  placeholder="Contact"
-                  name="contact"
-                  value={input.name}
-                  required
-                  onChange={(e) => {
-                    inputChangeHandler(e);
-                  }}
-                />
-                <input
-                  type="text"
-                  placeholder="Country"
-                  name="country"
-                  value={input.name}
-                  required
-                  onChange={(e) => {
-                    inputChangeHandler(e);
-                  }}
-                />
-                <textarea
-                  placeholder="Write a message..."
-                  rows="0"
-                  type="text"
-                  name="message"
-                  value={input.name}
-                  required
-                />
-              </form>
+            <div className="mt--40">
+              <a href="mailto:ankit27.work@gmail.com">
+                <button className="rn-button-style--2 btn-solid">
+                  Send Us E-Mail
+                </button>
+              </a>
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2">

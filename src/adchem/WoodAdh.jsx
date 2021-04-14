@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Backdrop from "@material-ui/core/Backdrop";
 import FlexList from "./FlexList";
 import Products from "./Products";
 
@@ -31,6 +32,13 @@ const productList = [
 ];
 
 const WoodAdh = (props) => {
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleToggle = () => {
+    setOpen(!open);
+  };
   return (
     <>
       <h2 className="title text-center mt--40 mb--20">Wood Adhesives</h2>
@@ -61,11 +69,23 @@ const WoodAdh = (props) => {
                 very reasonable price.
               </p>
               <div className="text-center mt--50">
-                <Link>
-                  <button className="rn-button-style--2 btn-solid">
-                    Get Best Quote
-                  </button>
-                </Link>
+                <button
+                  onClick={handleToggle}
+                  className="rn-button-style--2 btn-solid"
+                >
+                  Get Best Quote
+                </button>
+                <Backdrop
+                  style={{ zIndex: 20 }}
+                  open={open}
+                  onClick={handleClose}
+                >
+                  <a href="mailto:indrajitbanerje2810@gmail.com">
+                    <button className="rn-button-style--2 btn-solid">
+                      Send Us E-Mail
+                    </button>
+                  </a>
+                </Backdrop>
               </div>
             </div>
           </div>

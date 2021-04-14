@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Backdrop from "@material-ui/core/Backdrop";
 import Slider from "react-slick";
 import { slideSlick } from "./script";
 import { FiCheck } from "react-icons/fi";
@@ -144,6 +145,13 @@ const slideList = [
 ];
 
 const MetalChem = (props) => {
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleToggle = () => {
+    setOpen(!open);
+  };
   return (
     <>
       <h2 className="title text-center mt--40 mb--20">
@@ -177,11 +185,23 @@ const MetalChem = (props) => {
                 industry leading prices.
               </p>
               <div className="text-center mt--50">
-                <Link>
-                  <button className="rn-button-style--2 btn-solid">
-                    Get Best Quote
-                  </button>
-                </Link>
+                <button
+                  onClick={handleToggle}
+                  className="rn-button-style--2 btn-solid"
+                >
+                  Get Best Quote
+                </button>
+                <Backdrop
+                  style={{ zIndex: 20 }}
+                  open={open}
+                  onClick={handleClose}
+                >
+                  <a href="mailto:indrajitbanerje2810@gmail.com">
+                    <button className="rn-button-style--2 btn-solid">
+                      Send Us E-Mail
+                    </button>
+                  </a>
+                </Backdrop>
               </div>
             </div>
           </div>
@@ -263,7 +283,7 @@ const MetalChem = (props) => {
                 className={`slide slide-style-3 slider-box-content d-flex align-items-center justify-content-center`}
                 key={index}
               >
-                <div className="container" style={{height: "150px"}}>
+                <div className="container" style={{ height: "150px" }}>
                   <div className="text-center">
                     <h4>{item.title}</h4>
                     <p>{item.description}</p>
