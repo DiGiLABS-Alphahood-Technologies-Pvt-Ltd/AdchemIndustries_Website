@@ -31,7 +31,7 @@ const ContactOne = () => {
               </p>
             </div>
             <div className="mt--40">
-              <a href="mailto:ankit27.work@gmail.com">
+              <a href="mailto:indrajitbanerje2810@gmail.com">
                 <button className="rn-button-style--2 btn-solid">
                   Send Us E-Mail
                 </button>
