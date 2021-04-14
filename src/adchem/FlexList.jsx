@@ -8,7 +8,7 @@ const FlexList = (props) => {
       {props.list.map((item, index) => {
         if (index !== props.list.length - 1) {
           return (
-            <div className="country">
+            <div key={index} className="country">
               <div className="country-container">
                 <h4 className="heading">{item}</h4>
                 <div className="vr"></div>

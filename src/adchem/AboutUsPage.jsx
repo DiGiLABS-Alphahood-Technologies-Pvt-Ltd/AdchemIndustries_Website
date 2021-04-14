@@ -56,8 +56,12 @@ const beliefsList = [
 const beliefs = (
   <div className="">
     <div className="belief-container">
-      {beliefsList.map((item) => {
-        return <BeliefComponent img={item.img} title={item.title} />;
+      {beliefsList.map((item, index) => {
+        return (
+          <div key={index}>
+            <BeliefComponent img={item.img} title={item.title} />
+          </div>
+        );
       })}
     </div>
   </div>
@@ -75,9 +79,6 @@ const countryList = [
 ];
 
 const AboutUsPage = (props) => {
-  const bgImage = (
-    <img src="/assets/images/about/about-us-bg.png" className="bg-img" alt="" />
-  );
 
   return (
     <div className="about-us-page">

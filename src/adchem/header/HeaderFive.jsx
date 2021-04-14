@@ -5,6 +5,7 @@ import { FiX, FiMenu } from "react-icons/fi";
 class HeaderFive extends Component {
   constructor(props) {
     super(props);
+    this.state = { pathUrl: window.location.pathname };
     this.menuTrigger = this.menuTrigger.bind(this);
     this.CLoseMenuTrigger = this.CLoseMenuTrigger.bind(this);
     //  this.subMetuTrigger = this.subMetuTrigger.bind(this);
@@ -18,18 +19,8 @@ class HeaderFive extends Component {
   CLoseMenuTrigger() {
     document.querySelector(".header-wrapper").classList.remove("menu-open");
   }
+
   render() {
-    var elements = document.querySelectorAll(".has-droupdown > a");
-    for (var i in elements) {
-      if (elements.hasOwnProperty(i)) {
-        elements[i].onclick = function () {
-          this.parentElement
-            .querySelector(".submenu")
-            .classList.toggle("active");
-          this.classList.toggle("open");
-        };
-      }
-    }
 
     const { color, headerPosition } = this.props;
     let logoUrl = (
@@ -38,7 +29,6 @@ class HeaderFive extends Component {
         alt="ADCHEM industries"
       />
     );
-
     return (
       <header
         className={`header-area formobile-menu ${headerPosition} ${color}`}
@@ -56,21 +46,51 @@ class HeaderFive extends Component {
               <div className="col-lg-9 col-md-8 col-6">
                 <div className="header-right justify-content-end">
                   <nav className="mainmenunav d-lg-block">
-                    <ul className="mainmenu">
-                      <li>
+                    <ul
+                      onClick={() => {
+                        this.setState({ pathUrl: window.location.pathname });
+                      }}
+                      ref={this.navRef}
+                      className="mainmenu"
+                    >
+                      <li
+                        className={this.state.pathUrl === "/" ? "active" : ""}
+                      >
                         <Link to="/">Home</Link>
                       </li>
-                      <li>
+                      <li
+                        className={
+                          this.state.pathUrl === "/about-us" ? "active" : ""
+                        }
+                      >
                         <Link to="/about-us">About Us</Link>
                       </li>
-                      <li>
+                      <li
+                        className={
+                          this.state.pathUrl ===
+                          ("/products" ||
+                            "/products/labelling-adh" ||
+                            "/products/wood-adh" ||
+                            "/products/metal-chem")
+                            ? "active"
+                            : ""
+                        }
+                      >
                         <Link to="/products">Products</Link>
                       </li>
 
-                      <li>
+                      <li
+                        className={
+                          this.state.pathUrl === "/clients" ? "active" : ""
+                        }
+                      >
                         <Link to="/clients">Clients</Link>
                       </li>
-                      <li>
+                      <li
+                        className={
+                          this.state.pathUrl === "/contact-us" ? "active" : ""
+                        }
+                      >
                         <Link to="/contact-us">Contact Us</Link>
                       </li>
                     </ul>

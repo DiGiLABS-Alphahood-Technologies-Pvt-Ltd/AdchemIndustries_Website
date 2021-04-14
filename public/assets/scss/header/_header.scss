@@ -621,3 +621,8 @@
     opacity: 0;
 }
 
+.header-link.active {
+    .header-link.active > a {
+        color: yellow;
+    }
+}

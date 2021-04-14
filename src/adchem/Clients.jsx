@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import { portfolioSlick2 } from "./script";
 
@@ -57,9 +57,7 @@ const Clients = () => {
                   <div className="content">
                     <div className="inner">
                       <p>{value.category}</p>
-                      <h4>
-                        <a>{value.title}</a>
-                      </h4>
+                      <h4 className="text-white">{value.title}</h4>
                     </div>
                   </div>
                 </div>
