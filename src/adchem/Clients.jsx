@@ -31,6 +31,38 @@ const clientsList = [
     image: "client-9",
     title: "Druk Pickles",
   },
+  {
+    image: "client-10",
+    title: "SOM",
+  },
+  {
+    image: "client-11",
+    title: "Simba",
+  },
+  {
+    image: "client-12",
+    title: "Bhutan Breweries",
+  },
+  {
+    image: "client-13",
+    title: "Allied Blenders & Distillers",
+  },
+  {
+    image: "client-14",
+    title: "Associated Alcohols & Breweries",
+  },
+  {
+    image: "client-15",
+    title: "GAPL",
+  },
+  {
+    image: "client-16",
+    title: "IFB",
+  },
+  {
+    image: "client-17",
+    title: "IGL",
+  },
 ];
 
 const Clients = () => {

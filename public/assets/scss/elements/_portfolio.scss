@@ -73,17 +73,17 @@
     &.metal-chem {
       background-image: url(/assets/images/products/metal-chem.svg);
     }
-    &.image-1 {
-      background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-    }
+    // &.image-1 {
+    //   background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+    // }
 
-    &.image-2 {
-      background-image: url(/assets/images/portfolio/portfolio-2.jpg);
-    }
+    // &.image-2 {
+    //   background-image: url(/assets/images/portfolio/portfolio-2.jpg);
+    // }
 
-    &.image-3 {
-      background-image: url(/assets/images/portfolio/portfolio-3.jpg);
-    }
+    // &.image-3 {
+    //   background-image: url(/assets/images/portfolio/portfolio-3.jpg);
+    // }
 
     &.image-4 {
       background-image: url(/assets/images/portfolio/portfolio-4.jpg);
@@ -114,6 +114,30 @@
     }
     &.client-9 {
       background-image: url(/assets/images/clients/client9.png);
+    }
+    &.client-10 {
+      background-image: url(/assets/images/clients/client10.png);
+    }
+    &.client-11 {
+      background-image: url(/assets/images/clients/client11.png);
+    }
+    &.client-12 {
+      background-image: url(/assets/images/clients/client12.png);
+    }
+    &.client-13 {
+      background-image: url(/assets/images/clients/client13.png);
+    }
+    &.client-14 {
+      background-image: url(/assets/images/clients/client14.png);
+    }
+    &.client-15 {
+      background-image: url(/assets/images/clients/client15.png);
+    }
+    &.client-16 {
+      background-image: url(/assets/images/clients/client16.png);
+    }
+    &.client-17 {
+      background-image: url(/assets/images/clients/client17.png);
     }
 
     &::after {
