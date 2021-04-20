@@ -14,7 +14,7 @@ const HomePage = (props) => {
 
       <Para
         align="center"
-        title="Welcome to ADCHEM industries"
+        title="Welcome to ADCHEM INDUSTRIES"
         description={
           <p className="description">
             Adchem Industries has emerged as an ideal destination for getting
