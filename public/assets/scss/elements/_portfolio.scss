@@ -752,12 +752,12 @@
         @media #{$md-layout} {
           display: none !important;
         }
-        @media #{$lg-layout} {
-          display: none !important;
-        }
-        @media #{$laptop-device} {
-          display: none !important;
-        }
+        // @media #{$lg-layout} {
+        //   display: none !important;
+        // }
+        // @media #{$laptop-device} {
+        //   display: none !important;
+        // }
       }
       &.slick-next {
         right: 0;
@@ -783,12 +783,12 @@
         @media #{$md-layout} {
           display: none !important;
         }
-        @media #{$lg-layout} {
-          display: none !important;
-        }
-        @media #{$laptop-device} {
-          display: none !important;
-        }
+        // @media #{$lg-layout} {
+        //   display: none !important;
+        // }
+        // @media #{$laptop-device} {
+        //   display: none !important;
+        // }
       }
 
       &:hover {

@@ -23,6 +23,8 @@ export const portfolioSlick = {
 export const portfolioSlick2 = {
     infinite: true,
     slidesToShow: 5,
+    autoplay: true,
+    autoplaySpeed: 2300,
     slidesToScroll: 1,
     dots: true,
     arrows: true,
@@ -101,6 +103,8 @@ export const slideSlick = {
     arrows: true,
     fade: true,
     easing: "fade",
-    adaptiveHeight: true
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
 };
 

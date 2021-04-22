@@ -99,7 +99,7 @@ const AboutUsPage = (props) => {
           title="About Us"
           description={
             <p>
-              Adchem Industries was established in the year, 1983 by Mr. Samir
+              Adchem Industries was established in the year, 1984 by Mr. Samir
               Dey and is located in Kolkata, West Bengal. Now under the able
               guidance and proficient management skills of our honorable CEO,
               Mr. Samir Dey, we are scaling new heights of success in all
