@@ -6,7 +6,7 @@ import { slideSlick } from "./script";
 const SlideList = [
   {
     textPosition: "text-left",
-    bgImage: "bg_image--33",
+    bgImage: "bg_image--1",
     category: "",
     title: "Trust.",
     description: "Our clients trust us because we provide the best.",
@@ -15,10 +15,28 @@ const SlideList = [
   },
   {
     textPosition: "text-left",
-    bgImage: "bg_image--34",
+    bgImage: "bg_image--2",
     category: "",
     title: "Quality.",
     description: "Giving the best quality to you.",
+    buttonText: "Contact Us",
+    buttonLink: "/contact-us",
+  },
+  {
+    textPosition: "text-left",
+    bgImage: "bg_image--3",
+    category: "",
+    title: "Assurance.",
+    description: "You don’t need to worry, we assure you the best.",
+    buttonText: "Contact Us",
+    buttonLink: "/contact-us",
+  },
+  {
+    textPosition: "text-left",
+    bgImage: "bg_image--4",
+    category: "",
+    title: "People.",
+    description: "All we do, is for the people.",
     buttonText: "Contact Us",
     buttonLink: "/contact-us",
   },
