@@ -30,7 +30,7 @@ const Products = (props) => {
     <>
       <div className="pt--5 pb--80" style={{ backgroundColor: "#f8f9fc" }}>
         <Para
-          title="Product"
+          title={props.title ? props.title : "Products"}
           description={
             <p className="description">
               The products offered by us include various Wood Adhesive,

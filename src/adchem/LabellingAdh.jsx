@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FiCheck } from "react-icons/fi";
+import Slider from "react-slick";
 import Backdrop from "@material-ui/core/Backdrop";
 import FlexList from "./FlexList";
 import Products from "./Products";
+import { slideSlick } from "./script";
 
 const metalImg = (
   <img
@@ -66,6 +67,66 @@ const productList = [
     image: "wood-adh",
     title: "Wood Adhesives",
     url: "/products/wood-adh",
+  },
+];
+
+const slideList = [
+  {
+    title: "AR SERIES TRANSPARENT",
+    detail: (
+      <p>
+        <strong>TRANSPARENT</strong> Labelling Adhesives{" "}
+        <strong>AR SERIES</strong> based on modified natural polymer for{" "}
+        <strong>Glass & PET bottle</strong> labelling in Distilleries, Wineries,
+        Food and Pharmaceutical Industries.
+      </p>
+    ),
+    properties: [
+      "Suitable for all types of labelling machines.",
+      "High coverage and colourless coating.",
+      "No air bubbles or wrinkle formation after labelling.",
+      "Spotless Adhesive, hence no spot can be seen on the bottles and lables.",
+      "Humidity Resistant.",
+      "Good Tack, hence good label finish.",
+      "Excellent Shelf life.",
+    ],
+  },
+  {
+    title: "IWR SERIES",
+    detail: (
+      <p>
+        Modified Adhesive for labelling and foiling of 
+        <strong> Beer Bottle </strong> on high speed machine like, Krones, SS,
+        ENGG, etc. Ice Water Resistant upto 3 to 7 days after 48 hours of curing
+        on metalized label.
+      </p>
+    ),
+    properties: [
+      "Good Flowability.",
+      "Faster drying characteristics.",
+      "Immediate skid free on application.",
+      "Good for foiling.",
+      "Label and Foils are removed easily in bottle washer at the time of recycling of bottles.",
+    ],
+  },
+  {
+    title: "CL & VF SERIES",
+    detail: (
+      <p>
+        Off white coloured Labelling Adhesives <strong> CL SERIES </strong> based
+        on modified natural polymer for <strong> Glass & PET bottle </strong> 
+        labelling in Distilleries, Wineries, Food and Pharmaceutical Industries.
+      </p>
+    ),
+    properties: [
+      "Suitable for Automatic labelling machines (both PUMP type and POT type), semi-automatic/gumming labelling machines.",
+      "High coverage and colourless coating.",
+      "No air bubbles or wrikle formation after labelling.",
+      "Skid free in nature.",
+      "Humidity Resistant.",
+      "Good Tack, hence good label finish.",
+      "Excellent Shelf life.",
+    ],
   },
 ];
 
@@ -198,8 +259,38 @@ const LabellingAdh = (props) => {
         <h2>Ideal For Pasting</h2>
         <FlexList list={list} />
       </div>
+
+      <div className="slider-wrapper pt--40" style={{backgroundColor: "#f8f9fc"}}>
+        <h1 className="text-center mb--50">Products</h1>
+        <div className="slider-activation">
+          <Slider className="rn-slick-dot" {...slideSlick}>
+            {slideList.map((item, index) => (
+              <div
+                className={`slide slide-style-3 slider-box-content d-flex align-items-center justify-content-center`}
+                key={index}
+              >
+                <div className="container">
+                  <div className="text-center">
+                    <h4>{item.title}</h4>
+                  </div>
+                  {item.detail}
+                  <ul className="list-style--1">
+                    {item.properties.map((property) => (
+                      <li>
+                        <FiCheck />
+                        {property}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+
       <div className="center">
-        <Products list={productList} />
+        <Products title="More Products" list={productList} />
       </div>
     </>
   );

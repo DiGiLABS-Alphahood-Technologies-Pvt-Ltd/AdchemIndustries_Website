@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Backdrop from "@material-ui/core/Backdrop";
 import Slider from "react-slick";
 import { slideSlick } from "./script";
@@ -295,7 +294,7 @@ const MetalChem = (props) => {
         </div>
       </div>
       <div className="center">
-        <Products list={productList} />
+        <Products title="More Products" list={productList} />
       </div>
     </>
   );

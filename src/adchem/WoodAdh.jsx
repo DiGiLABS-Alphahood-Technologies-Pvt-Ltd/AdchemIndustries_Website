@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Backdrop from "@material-ui/core/Backdrop";
 import FlexList from "./FlexList";
 import Products from "./Products";
@@ -97,7 +96,7 @@ const WoodAdh = (props) => {
         <FlexList list={list} />
       </div>
       <div className="center">
-        <Products list={productList} />
+        <Products title="More Products" list={productList} />
       </div>
     </>
   );
