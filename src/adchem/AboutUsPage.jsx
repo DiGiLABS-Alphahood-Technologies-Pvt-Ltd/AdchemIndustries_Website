@@ -26,17 +26,17 @@ const beliefsList = [
     img: (
       <img
         className="belief-img"
-        src="/assets/images/belief-icons/research.svg"
-        alt=""
-      />
-    ),
-  },
-  {
-    title: "Application & Research",
-    img: (
-      <img
-        className="belief-img"
         src="/assets/images/belief-icons/concept.svg"
+        alt=""
+        />
+        ),
+      },
+      {
+        title: "Application & Research",
+        img: (
+          <img
+          className="belief-img"
+          src="/assets/images/belief-icons/research.svg"
         alt=""
       />
     ),
@@ -143,7 +143,7 @@ const AboutUsPage = (props) => {
             </div>
             <div className="col-lg-6 order-1 order-lg-2">
               <div className="thumbnail mb_md--30 mb_sm--30">
-                <img src="/assets/images/about/bottle-testtube.png" alt="" />
+                <img src="/assets/images/about/machine-1.jpg" alt="" />
               </div>
             </div>
           </div>
