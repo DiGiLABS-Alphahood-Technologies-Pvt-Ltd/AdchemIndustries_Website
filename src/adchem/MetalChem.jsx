@@ -62,12 +62,12 @@ const productList = [
 
 const slideList = [
   {
-    title: "APDEG-50o",
+    title: "APDEG-50",
     description:
       "An easy water soluble Degreasing Chemical, suitable for degreasing aluminium surfaces.",
   },
   {
-    title: "APDEG-60o",
+    title: "APDEG-60",
     description:
       "An easy water soluble heavy duty Degreasing Chemical, suitable for degreasing mild steel and iron surfaces. It can be operated at room temperature and elevated temperature, but the efficiency of removing oil, grease, dirt etc will be most effective at higher temperature.",
   },
