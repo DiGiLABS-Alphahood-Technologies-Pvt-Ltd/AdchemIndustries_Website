@@ -5,13 +5,13 @@ import { IoMdGitNetwork } from "react-icons/io";
 const iconList = [
   {
     icon: <FiClock />,
-    title: "30 years",
-    description: "More than 30 years of experience",
+    title: "35 years",
+    description: "More than 35 years of experience",
   },
   {
     icon: <FiUsers />,
-    title: "15+",
-    description: "More than 15+ clients worldwide",
+    title: "500+",
+    description: "More than 500+ clients worldwide",
   },
   {
     icon: <IoMdGitNetwork />,
