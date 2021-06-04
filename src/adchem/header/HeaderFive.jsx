@@ -25,7 +25,7 @@ class HeaderFive extends Component {
     const { color, headerPosition } = this.props;
     let logoUrl = (
       <img
-        src="/assets/images/logo/adchem-industries-logo.png"
+        src="/assets/images/logo/adchem-industries-logo2.png"
         alt="ADCHEM industries"
       />
     );

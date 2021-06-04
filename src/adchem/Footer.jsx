@@ -8,7 +8,7 @@ import { FiHeart } from "react-icons/fi";
 const Footer = () => {
   let logoUrl = (
     <img
-      src="/assets/images/logo/adchem-industries-logo.png"
+      src="/assets/images/logo/adchem-industries-logo2.png"
       alt="ADCHEM industries"
     />
   );
