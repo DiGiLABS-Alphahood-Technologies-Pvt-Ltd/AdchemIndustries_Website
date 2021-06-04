@@ -4,6 +4,10 @@ import { portfolioSlick2 } from "./script";
 
 const clientsList = [
   {
+    image: "client-18",
+    title: "Carlsberg Group",
+  },
+  {
     image: "client-1",
     title: "Officers Choice Whiskey",
   },
