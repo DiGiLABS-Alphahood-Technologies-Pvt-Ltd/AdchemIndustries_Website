@@ -28,15 +28,15 @@ const beliefsList = [
         className="belief-img"
         src="/assets/images/belief-icons/concept.svg"
         alt=""
-        />
-        ),
-      },
-      {
-        title: "Application & Research",
-        img: (
-          <img
-          className="belief-img"
-          src="/assets/images/belief-icons/research.svg"
+      />
+    ),
+  },
+  {
+    title: "Application & Research",
+    img: (
+      <img
+        className="belief-img"
+        src="/assets/images/belief-icons/research.svg"
         alt=""
       />
     ),
@@ -72,14 +72,17 @@ const countryList = [
   "Bangladesh",
   "Nepal",
   "Bhutan",
-  "China",
   "Sri Lanka",
-  "Western Asia",
   "Africa",
+  "Brazil",
+  "Myanmar",
+  "Vietnam",
+  "Taiwan",
+  "Japan",
+  "Singapore Area",
 ];
 
 const AboutUsPage = (props) => {
-
   return (
     <div className="about-us-page">
       <div className="bg">
