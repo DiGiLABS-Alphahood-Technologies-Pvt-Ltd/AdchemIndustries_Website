@@ -73,7 +73,7 @@ const Clients = () => {
         <p className="description">
           We are catering to the requirements of various Distilleries,
           Pharmaceutical companies, Breweries, Cosmetic and Ayurveda companies
-          like ABD India Ltd., Radico Khaitan Ltd., Emami Ltd., Dabur India
+          like ABD India Ltd., Carlsberg Group, Radico Khaitan Ltd., Emami Ltd., Dabur India
           Ltd., Bhutan Fruit Products, Deyâs Medicals Ltd. and many more
           prestigious organizations.
         </p>

@@ -24,7 +24,7 @@ const Footer = () => {
             <div>
               <h3>Contact Persons : </h3>
               <p>
-                Mr. Soumya Dey (Chief Executive – Marketing and Technical)
+                Mr. Soumya Dey (Chief Executive – Marketing and Technical) - +91-9831655611
                 <br />
                 Mr. Samir De (CEO) - +91-9433034346
                 <br />
