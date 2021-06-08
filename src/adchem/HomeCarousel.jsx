@@ -40,6 +40,16 @@ const SlideList = [
     buttonText: "Contact Us",
     buttonLink: "/contact-us",
   },
+  {
+    textPosition: "text-left",
+    bgImage: "bg_image--5",
+    category: "",
+    title: "RESEARCH.",
+    description: "Knowledge. Identified & delivered.",
+    buttonText: "Contact Us",
+    buttonLink: "/contact-us",
+  },
+
 ];
 
 const HomeCarousel = (props) => {
