@@ -20,10 +20,6 @@ const clientsList = [
     title: "Emami Menthoplus",
   },
   {
-    image: "client-4",
-    title: " Original Choice Whiskey",
-  },
-  {
     image: "client-6",
     title: "Dabur",
   },
