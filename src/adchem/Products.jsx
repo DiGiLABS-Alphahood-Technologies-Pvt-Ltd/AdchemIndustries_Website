@@ -41,39 +41,15 @@ const Products = (props) => {
         <div className="container mt--40">
           <div className="flex wrap center">
             {list.map((value, index) => (
-              <div
-                className=""
-                key={index}
-              >
-                {/* <div className="portfolio">
-                  <div className="thumbnail-inner">
-                    <div className={`thumbnail ${value.image}`}></div>
-                    <div className={`bg-blr-image ${value.image}`}></div>
-                  </div>
-                  <div className="content">
-                    <div className="inner">
-                      <p className="description">{value.category}</p>
-                      <h4>
-                        <a href="/portfolio-details">{value.title}</a>
-                      </h4>
-                      <div className="portfolio-button">
-                        <Link className="rn-btn" to={value.url}>
-                          View More
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-
+              <div className="" key={index}>
                 <div className="product text-center">
-                  <div className={`thumbnail ${value.image}`}>
-                  </div>
-                    {/* <div className="content"> */}
-                      <h3>{value.title}</h3>
-                      <Link to={value.url}>
-                        <button className="rn-btn">View More</button>
-                      </Link>
-                    {/* </div> */}
+                  <div className={`thumbnail ${value.image}`}></div>
+                  {/* <div className="content"> */}
+                  <h3>{value.title}</h3>
+                  <Link to={value.url}>
+                    <button className="rn-btn">View More</button>
+                  </Link>
+                  {/* </div> */}
                 </div>
               </div>
             ))}

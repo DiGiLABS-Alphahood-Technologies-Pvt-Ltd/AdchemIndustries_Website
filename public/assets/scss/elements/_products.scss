@@ -7,7 +7,8 @@
   display: flex;
   flex-flow: column;
   justify-content: space-around;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
+  position: relative;
 
   // @media #{$laptop-device} {
   //   height: 500px;
@@ -49,3 +50,28 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+#particles-js canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity 0.8s ease, -webkit-transform 1.4s ease;
+  transition: opacity 0.8s ease, transform 1.4s ease;
+}
+
+#particles-js-1,
+#particles-js-2,
+#particles-js-3,
+#particles-js-4 {
+  // width: 100%;
+  // height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+} 
