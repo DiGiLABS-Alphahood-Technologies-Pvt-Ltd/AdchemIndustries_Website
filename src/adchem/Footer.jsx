@@ -28,8 +28,6 @@ const Footer = () => {
                 <br />
                 Mr. Samir De (CEO) - +91-9433034346
                 <br />
-                Mr. Ganpati Jha (Marketing Head) - +91 – 8700616307
-                <br />
                 Mr. Asim Nandi (Administration) - +91-9477215930
               </p>
             </div>
