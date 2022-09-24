@@ -1,0 +1,27 @@
+.belief-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  margin-top: 1rem;
+}
+
+.belief {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  /* justify-content: space-between; */
+  margin-bottom: 2rem;
+  width: 15rem;
+}
+
+.belief-img {
+  width: 8.2rem;
+  margin-bottom: 2rem;
+}
+
+.belief-heading {
+  // font-size: 3rem;
+  font-weight: 400;
+}

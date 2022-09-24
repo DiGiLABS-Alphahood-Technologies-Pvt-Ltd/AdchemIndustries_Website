@@ -1,0 +1,33 @@
+.bg {
+  width: 100%;
+  position: relative;
+  background-image: url("/assets/images/about/about-us-bg.png");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.positioned {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.green-text {
+  color: #20ce88;
+  font-weight: 700;
+  font-size: 3.9rem;
+}
+
+.map {
+  background-image: url(/assets/images/about/map.png);
+  height: 480px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

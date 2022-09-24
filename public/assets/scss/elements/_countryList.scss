@@ -1,0 +1,27 @@
+.country-list {
+  text-align: center;
+}
+
+.country {
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+.country-container {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vr {
+  height: 100%;
+  border: 2px solid #20ce88;
+  border-radius: 5px;
+  margin: 0 1rem;
+  background-color: #20ce88;
+}
+
+.heading {
+  margin: 0;
+}
