@@ -1,4 +1,5 @@
 import React from "react";
+import Particles from "react-particles-js";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { slideSlick } from "./script";
@@ -54,7 +55,29 @@ const SlideList = [
 
 const HomeCarousel = (props) => {
   return (
-    <>
+    <div className="slider-activation slider-creative-agency with-particles">
+      <div className="frame-layout__particles">
+        <Particles
+          params={{
+            "particles": {
+              "number": {
+                "value": 75
+              },
+              "size": {
+                "value": 4
+              }
+            },
+            "interactivity": {
+              "events": {
+                "onhover": {
+                  "enable": true,
+                  "mode": "repulse"
+                }
+              }
+            }
+          }}
+        />
+      </div>
       <div className="slider-wrapper">
         <div className="slider-activation">
           <Slider className="rn-slick-dot" {...slideSlick}>
@@ -99,7 +122,7 @@ const HomeCarousel = (props) => {
           </Slider>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

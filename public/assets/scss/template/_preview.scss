@@ -5,15 +5,18 @@
     position: relative;
     background: #ffffff;
 }
+
 .prv-header-area {
     padding: 18px 85px;
     padding-top: 18px;
 }
-.fullscreen{
-    &.empty-div{
+
+.fullscreen {
+    &.empty-div {
         @media #{$md-layout} {
             display: none;
         }
+
         @media #{$lg-layout} {
             display: none;
         }
@@ -23,6 +26,7 @@
 .with-particles {
     position: relative;
     z-index: 3;
+
     .frame-layout__particles {
         width: 100%;
         height: 100%;
@@ -30,11 +34,10 @@
         z-index: 2;
         top: 0;
         left: 0;
-        @media #{$large-mobile} {
-            display: none;
-        }
+
     }
-    .inner{
+
+    .inner {
         position: relative;
         z-index: 3;
     }
@@ -52,14 +55,18 @@
     position: absolute;
     content: "";
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+7,000000+100&0+50,0.5+100 */
-    background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0) 7%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
 }
 
 
-.prv-banner-wrapper{
+.prv-banner-wrapper {
     min-height: 100vh;
     background-position: center center;
     background-size: cover;
@@ -71,6 +78,7 @@
     width: 100%;
     top: 0px;
     left: 0px;
+
     @media #{$sm-layout} {
         min-height: auto;
         position: static;
@@ -78,6 +86,7 @@
         background-image: none !important;
         background-color: #f6f6f6;
     }
+
     @media #{$md-layout} {
         min-height: auto;
         position: static;
@@ -85,6 +94,7 @@
         background-image: none !important;
         background-color: #f6f6f6;
     }
+
     @media #{$lg-layout} {
         min-height: auto;
         position: static;
@@ -92,74 +102,88 @@
         background-image: none !important;
         background-color: #f6f6f6;
     }
-    @media #{$md-layout} {
-      
-    }
-    @media #{$lg-layout} {
-        
-    }
-    .inner{
+
+    @media #{$md-layout} {}
+
+    @media #{$lg-layout} {}
+
+    .inner {
         padding: 35px;
         position: relative;
         z-index: 1;
+
         @media #{$laptop-device} {
             padding: 35px 0;
         }
+
         @media #{$sm-layout} {
             padding: 0;
         }
+
         .logo {
-            img{
+            img {
                 max-height: 70px;
             }
         }
+
         .title {
             font-size: 23px;
             color: #515462;
             line-height: 42px;
             margin: 30px 0 50px 0;
+
             @media #{$laptop-device} {
                 font-size: 20px;
                 line-height: 36px;
                 margin: 24px 0 40px 0;
             }
+
             @media #{$sm-layout} {
                 margin: 32px 0 20px 0;
             }
 
         }
-        .purshase-btn{
+
+        .purshase-btn {
             margin-left: -15px;
             margin-right: -15px;
+
             @media #{$laptop-device} {
                 margin-left: -10px;
                 margin-right: -10px;
             }
+
             @media #{$sm-layout} {
                 margin-left: -5px;
                 margin-right: -5px;
             }
-            a{
+
+            a {
                 margin-left: 15px;
                 margin-right: 15px;
+
                 @media #{$sm-layout} {
                     margin-left: 5px;
                     margin-right: 5px;
                 }
+
                 &.rn-button-style--2 {
                     @media #{$laptop-device} {
                         padding: 10px 25px;
                     }
+
                     @media #{$sm-layout} {
                         padding: 9px 12px;
                         font-size: 14px;
                     }
                 }
+
                 @media #{$laptop-device} {
                     margin-left: 10px;
                     margin-right: 10px;
                 }
-                & + a {
+
+                &+a {
                     @media #{$small-mobile} {
                         margin-top: 10px;
                     }
@@ -174,21 +198,24 @@
     Demo Area  
 -----------------------*/
 
-.home-demo-area{
+.home-demo-area {
     .wrapper {
         @media #{$md-layout} {
             padding: 0 30px !important;
         }
+
         @media #{$sm-layout} {
             padding: 0 30px !important;
         }
     }
+
     .section-title {
         &.text-white {
             h2 {
                 color: #c6c9d8;
                 margin-bottom: 9px;
             }
+
             p {
                 color: #c6c9d8;
                 opacity: 0.75;
@@ -197,53 +224,62 @@
         }
     }
 }
+
 // Start Single Demo 
-.bg_color--7{
+.bg_color--7 {
     .single-demo {
         position: relative;
+
         a {
-            > span {
+            >span {
                 display: block;
                 text-align: center;
                 padding: 20px 0;
-                color: rgba(255,255,255,0.7);
+                color: rgba(255, 255, 255, 0.7);
                 font-size: 20px;
                 font-weight: 500;
                 transition: 0.3s ease-in-out;
                 letter-spacing: .20px;
             }
-            
+
         }
-    }  
+    }
 }
+
 .single-demo {
     padding: 0 30px;
     margin: 45px 0;
-    
+
     @media #{$laptop-device} {
         padding: 0px;
     }
+
     @media #{$md-layout} {
         padding: 0px;
     }
+
     @media #{$sm-layout} {
         padding: 0px;
         margin: 20px 0;
     }
+
     @media #{$lg-layout} {
         padding: 0px;
     }
+
     a {
         display: block;
         @extend %transition;
         position: relative;
         z-index: 2;
+
         img {
             box-shadow: 3px 4px 20px 0 rgba(0, 0, 0, 0.1);
             transition: 0.7s cubic-bezier(0.26, 0.76, 0.30, 0.75);
             width: 100% !important;
             border-radius: 6px;
         }
+
         .title {
             display: block;
             text-align: left;
@@ -255,16 +291,18 @@
             letter-spacing: .20px;
             margin: 0;
         }
+
         .info {
             display: block;
             padding: 0;
-            color: rgba(29,29,36,0.75);
+            color: rgba(29, 29, 36, 0.75);
             font-size: 14px;
             font-weight: 300;
             transition: 0.3s ease-in-out;
             line-height: 25px;
         }
-        > span {
+
+        >span {
             &.number {
                 display: none;
                 position: absolute;
@@ -277,19 +315,21 @@
                 letter-spacing: 11px;
             }
         }
+
         &:hover {
             img {
-                -webkit-transform: translate3d(0,-10px,0);
-                transform: translate3d(0,-10px,0);
-                box-shadow: 0 50px 80px -10px rgba(0,0,0,0.17);
+                -webkit-transform: translate3d(0, -10px, 0);
+                transform: translate3d(0, -10px, 0);
+                box-shadow: 0 50px 80px -10px rgba(0, 0, 0, 0.17);
             }
         }
+
         .label-new {
             position: absolute;
             top: 5px;
             background: #f81f01;
             background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81f01', endColorstr='#ee076e',GradientType=1 );
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f81f01', endColorstr='#ee076e', GradientType=1);
             padding: 9px 14px;
             color: #fff;
             border-radius: 4px;
@@ -312,16 +352,20 @@ Faq Area
     .accodion-style--1 .accordion__item+.accordion__item {
         margin-top: 20px;
     }
+
     .accodion-style--1 .accordion__item .accordion__heading .accordion__button {
         font-size: 18px;
         padding: 10px 0;
     }
+
     .accodion-style--1 .accordion__item .accordion__heading {
         width: 100%;
     }
+
     .accodion-style--1 .accordion__item .accordion__heading .accordion__button::after {
         width: 100%;
     }
+
     .accodion-style--1 .accordion__item .accordion__heading .accordion__button::after {
         height: 1px;
     }
@@ -337,6 +381,7 @@ Faq Area
 .tablist-inner {
     display: inline-block;
 }
+
 .pv-tab-button {
     display: flex;
     justify-content: center;
@@ -351,41 +396,51 @@ Faq Area
     padding: 0;
     padding: 0 36px;
     outline: none;
+
     @media #{$sm-layout} {
         margin-bottom: 18px;
         margin-top: 5px;
         padding: 8px 15px;
     }
+
     @media #{$md-layout} {
         padding: 0 15px;
     }
+
     @media #{$sm-layout} {
         min-width: auto;
     }
+
     .label {
         position: relative;
+
         &::after {
             position: absolute;
             top: 0;
         }
     }
+
     li {
         padding: 0 14px;
         color: #101010;
         font-size: 16px;
         cursor: pointer;
         outline: none;
+
         @media #{$large-mobile} {
             padding: 0 11px;
         }
+
         span {
             position: relative;
             display: block;
             padding: 20px 0;
             cursor: pointer;
+
             @media #{$large-mobile} {
                 padding: 11px 0;
             }
+
             &::after {
                 position: absolute;
                 left: 0;
@@ -395,9 +450,11 @@ Faq Area
                 content: "";
             }
         }
+
         &.react-tabs__tab--selected {
             span {
                 color: $theme-color;
+
                 &::after {
                     width: 100%;
                 }
@@ -414,9 +471,9 @@ Faq Area
 /*-----------------------
 Footer Style  
 -------------------------*/
-.prv-footer{
-    .inner{
-        h2{
+.prv-footer {
+    .inner {
+        h2 {
             &.title {
                 color: $heading-color;
                 font-size: 60px;
@@ -426,6 +483,7 @@ Footer Style
         }
     }
 }
+
 a {
     &.purchase-btn {
         display: inline-block;
@@ -440,6 +498,7 @@ a {
         color: #ffffff;
         background: $heading-color;
         border: 1px solid $heading-color;
+
         &:hover {
             color: $heading-color;
             border: 1px solid $heading-color;
@@ -449,33 +508,39 @@ a {
 }
 
 
-/* Feature Area */ 
-.prv-feature{
+/* Feature Area */
+.prv-feature {
     .content {
         h3 {
             &.title {
                 color: #c6c9d8;
+
                 @media #{$md-layout} {
                     margin-bottom: 13px;
                     font-size: 20px;
                 }
+
                 @media #{$sm-layout} {
                     margin-bottom: 13px;
                     font-size: 20px;
                 }
             }
         }
+
         p {
-            &.subtitle{
+            &.subtitle {
                 color: #c6c9d8;
+
                 @media #{$md-layout} {
                     font-size: 16px;
                     line-height: 28px;
                 }
+
                 @media #{$laptop-device} {
                     font-size: 16px;
                     line-height: 26px;
                 }
+
                 @media #{$sm-layout} {
                     font-size: 16px;
                     line-height: 28px;
@@ -486,9 +551,9 @@ a {
     }
 }
 
-.text-white-wrapper{
-    a{
-        &.rn-button-style--2{
+.text-white-wrapper {
+    a {
+        &.rn-button-style--2 {
             border: 2px solid #fff;
             color: #fff;
         }
