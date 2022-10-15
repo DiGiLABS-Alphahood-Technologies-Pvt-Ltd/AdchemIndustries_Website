@@ -101,7 +101,7 @@ const HomeCarousel = (props) => {
                         ) : (
                           ""
                         )}
-                        {value.buttonText ? (
+                        {/* {value.buttonText ? (
                           <div className="slide-btn">
                             <Link
                               to={value.buttonLink}
@@ -112,7 +112,7 @@ const HomeCarousel = (props) => {
                           </div>
                         ) : (
                           ""
-                        )}
+                        )} */}
                       </div>
                     </div>
                   </div>

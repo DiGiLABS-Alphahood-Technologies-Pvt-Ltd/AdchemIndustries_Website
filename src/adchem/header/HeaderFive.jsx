@@ -68,10 +68,10 @@ class HeaderFive extends Component {
                       <li
                         className={
                           this.state.pathUrl ===
-                          ("/products" ||
-                            "/products/labelling-adh" ||
-                            "/products/wood-adh" ||
-                            "/products/metal-chem")
+                            ("/products" ||
+                              "/products/labelling-adh" ||
+                              "/products/wood-adh" ||
+                              "/products/metal-chem")
                             ? "active"
                             : ""
                         }
@@ -86,15 +86,20 @@ class HeaderFive extends Component {
                       >
                         <Link to="/clients">Clients</Link>
                       </li>
-                      <li
+                      {/* <li
                         className={
                           this.state.pathUrl === "/contact-us" ? "active" : ""
                         }
                       >
                         <Link to="/contact-us">Contact Us</Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </nav>
+                  <div className="header-btn">
+                    <a className="rn-btn" href="/contact-us">
+                      <span>Contact Us</span>
+                    </a>
+                  </div>
 
                   {/* Start Humberger Menu  */}
                   <div className="humberger-menu d-block d-lg-none pl--20">
