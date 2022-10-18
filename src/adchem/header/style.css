@@ -1,0 +1,28 @@
+.contact-link {
+    display: block;
+    /* padding: 7px 25px !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    border: 2px solid rgba(29,29,36,0.5) !important;
+    color: #1d1d24 !important;
+    width: 165px !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+    font-weight: 400 !important; */
+}
+
+/* .contact-link:hover{
+    background-color: #20CE88;
+} */
+.contact-button{
+    display:block;
+}
+
+@media only screen and (min-width:768px) {
+    .contact-link {
+        display: none !important;
+    }
+    .contact-button{
+        display: none;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiX, FiMenu } from "react-icons/fi";
+import './style.css';
 
 class HeaderFive extends Component {
   constructor(props) {
@@ -42,6 +43,7 @@ class HeaderFive extends Component {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-9 col-md-8 col-6">
                 <div className="header-right justify-content-end">
                   <nav className="mainmenunav d-lg-block">
@@ -86,14 +88,19 @@ class HeaderFive extends Component {
                       >
                         <Link to="/clients">Clients</Link>
                       </li>
-                      {/* <li
+                      <li
                         className={
-                          this.state.pathUrl === "/contact-us" ? "active" : ""
+                          this.state.pathUrl === "/contact-us" ? "active" : "contact-link"
                         }
                       >
-                        <Link to="/contact-us">Contact Us</Link>
-                      </li> */}
+                        <div style={{ width: '150px', textAlign: 'center' }} className="header-btn">
+                          <a className="rn-btn" href="/contact-us">
+                            <span style={{ fontSize: '14px' }}>Contact Us</span>
+                          </a>
+                        </div>
+                      </li>
                     </ul>
+
                   </nav>
                   <div className="header-btn">
                     <a className="rn-btn" href="/contact-us">
