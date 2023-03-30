@@ -5,3 +5,19 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+.slider-activation{
+  position: relative;
+}
+
+.particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
