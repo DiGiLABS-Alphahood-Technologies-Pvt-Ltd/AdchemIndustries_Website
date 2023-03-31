@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiX, FiMenu } from "react-icons/fi";
+import "./style.css";
 
 class HeaderFive extends Component {
   constructor(props) {
@@ -86,15 +87,31 @@ class HeaderFive extends Component {
                       >
                         <Link to="/clients">Clients</Link>
                       </li>
-                      <li
+                      {/* <li
                         className={
                           this.state.pathUrl === "/contact-us" ? "active" : ""
                         }
                       >
                         <Link to="/contact-us">Contact Us</Link>
+                      </li> */}
+                      <li className="contact-link">
+                        <div
+                          style={{ width: "150px", textAlign: "center" }}
+                          className="header-btn"
+                        >
+                          <a className="rn-btn" href="/contact-us">
+                            <span style={{ fontSize: "14px" }}>Contact Us</span>
+                          </a>
+                        </div>
                       </li>
                     </ul>
                   </nav>
+
+                  <div className="header-btn">
+                    <a className="rn-btn" href="/contact-us">
+                      <span>Contact Us</span>
+                    </a>
+                  </div>
 
                   {/* Start Humberger Menu  */}
                   <div className="humberger-menu d-block d-lg-none pl--20">
