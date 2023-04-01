@@ -10,14 +10,26 @@
   position: relative;
 }
 
-.particles{
+.inner{
+  padding-bottom: 7em;
+}
+
+.slide-btn{
+  position: absolute;
+  z-index: 3;
+  bottom: 160px;
+  left: 155px;
+}
+
+#tsparticles{
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
+  left: 0;
+}
 
-  background-size: cover;
-  background-position: center right;
-  background-repeat: no-repeat;
+.slider-activation ul{
+  position: relative;
+  z-index: 3;
 }
