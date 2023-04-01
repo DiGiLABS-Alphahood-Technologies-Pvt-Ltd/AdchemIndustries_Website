@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiX, FiMenu } from "react-icons/fi";
-import "./style.css";
 
 class HeaderFive extends Component {
   constructor(props) {
@@ -43,6 +42,7 @@ class HeaderFive extends Component {
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-9 col-md-8 col-6">
                 <div className="header-right justify-content-end">
                   <nav className="mainmenunav d-lg-block">
@@ -69,10 +69,10 @@ class HeaderFive extends Component {
                       <li
                         className={
                           this.state.pathUrl ===
-                          ("/products" ||
-                            "/products/labelling-adh" ||
-                            "/products/wood-adh" ||
-                            "/products/metal-chem")
+                            ("/products" ||
+                              "/products/labelling-adh" ||
+                              "/products/wood-adh" ||
+                              "/products/metal-chem")
                             ? "active"
                             : ""
                         }
@@ -89,29 +89,14 @@ class HeaderFive extends Component {
                       </li>
                       {/* <li
                         className={
-                          this.state.pathUrl === "/contact-us" ? "active" : ""
+                          this.state.pathUrl === "/contact-us" ? "active" : "contact-link"
                         }
                       >
                         <Link to="/contact-us">Contact Us</Link>
-                      </li> */}
-                      <li className="contact-link">
-                        <div
-                          style={{ width: "150px", textAlign: "center" }}
-                          className="header-btn"
-                        >
-                          <a className="rn-btn" href="/contact-us">
-                            <span style={{ fontSize: "14px" }}>Contact Us</span>
-                          </a>
-                        </div>
                       </li>
                     </ul>
-                  </nav>
 
-                  <div className="header-btn">
-                    <a className="rn-btn" href="/contact-us">
-                      <span>Contact Us</span>
-                    </a>
-                  </div>
+                  </nav>
 
                   {/* Start Humberger Menu  */}
                   <div className="humberger-menu d-block d-lg-none pl--20">
